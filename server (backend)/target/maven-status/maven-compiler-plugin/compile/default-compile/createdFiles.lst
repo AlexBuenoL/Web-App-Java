@@ -1,0 +1,6 @@
+test/restad/JakartaRestConfiguration.class
+DataBase/operationDB.class
+test/restad/resources/JakartaEE91Resource.class
+config/ApplicationDep.class
+DataBase/initDB.class
+Domain/Image.class

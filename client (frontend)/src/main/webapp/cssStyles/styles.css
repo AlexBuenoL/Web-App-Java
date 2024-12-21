@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 sept 2024, 12:42:15
+    Author     : alumne
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    background-color: #4CAF50;
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .centered {
+    text-align: center
+  }
+
+  .serif {
+    font-family: serif
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  a {
+    text-decoration: none; /* Removes the underline */
+    color: #FFFFFF; /* Inherits color from the parent element */
+  }
+  
+  .alert {
+    padding: 15px;
+    background-color: #4CAF50; /* Verde para éxito */
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .alert.hidden {
+    display: none;
+  }
+  
