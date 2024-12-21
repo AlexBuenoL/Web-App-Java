@@ -10,8 +10,8 @@ User-friendly interfaces for session management and image visualization.
 Developed with Jakarta EE 9 to provide a robust RESTful API.
 Implements core CRUD operations, business logic, and user authentication/authorization.
 Supports secure image upload, storage, and retrieval.
-Session and User Management:
 
+## Session and User Management
 Authentication system with session tracking.
 Role-based access control and personalized user experiences.
 Secure session handling to prevent unauthorized access.
@@ -24,18 +24,6 @@ Supports image previews and updates.
 ## Integration
 Uses HTTP methods to enable seamless communication between the frontend and backend.
 Ensures efficient data exchange, input validation, and error handling.
-Technical Stack
-Frontend: JSP, Servlets, HTML, CSS, and JavaScript.
-Backend: Jakarta EE 9, JAX-RS for RESTful services.
-Build Tool: Maven or Gradle (as applicable).
-Server: Compatible with any Jakarta EE 9 compliant application server (e.g., Payara, WildFly).
-Database: (Optional) JDBC or JPA integration for user and image data persistence.
-Getting Started
-Clone the repository.
-Set up the database and configure the required settings (detailed instructions provided).
-Build the project using Maven or Gradle.
-Deploy the application to a Jakarta EE 9 compliant server.
-Access the application via your browser and start exploring its features.
 
 ## Use Cases
 A comprehensive learning resource for integrating session management, user handling, and image processing in a Java web application.
